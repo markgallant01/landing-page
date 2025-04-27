@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
 }
 
-.header h2 {
+.header > div > a {
   font-size: 24px;
   color: #f9faf8;
 }
