@@ -151,8 +151,32 @@ body {
 
 .quote {
   width: 100%;
-  height: 500px;
   background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote > div {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 75px 310px;
+}
+
+.quote-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+} 
+
+.quote-citation {
+  font-weight: bold;
+  font-size: 24px;
+  align-self: end;
+  margin: 0 50px 0 0;
 }
 
 .action {
